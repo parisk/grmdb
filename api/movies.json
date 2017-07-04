@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Suntan",
+        "year": 2016,
+        "rating": 6.8,
+        "description": "On a hedonistic Greek island, a middle-aged doctor becomes obsessed with a young tourist when she lets him tag along with her group of hard partying friends.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWZmZDE3ZjItNDJjNy00YzliLWI1ZDktODZlNTMxZGM5MDFmL2ltYWdlXkEyXkFqcGdeQXVyNTQwMDA5NTg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "directors": [1],
+        "writers": [1, 2],
+        "cast": [3, 4, 5]
+    },
+    {
+        "id": 2,
+        "title": "Κυνόδοντας",
+        "year": 2009,
+        "rating": 7.3,
+        "description": "Three teenagers live isolated, without leaving their house, because their over-protective parents say they can only leave when their dogtooth falls out.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyOTkyMDE5N15BMl5BanBnXkFtZTcwNjIwNzQwMw@@._V1_UY268_CR4,0,182,268_AL_.jpg",
+        "directors": [6],
+        "writers": [7, 6],
+        "cast": [8, 9, 10]
+    },
+    {
+        "id": 3,
+        "title": "Ξενία",
+        "year": 2014,
+        "rating": 6.8,
+        "description": "Strangers in their own birthplace, 16-year-old Danny and 18-year-old Odysseus cross the entire country in search of their Greek father, after their Albanian mother passes away.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyNzEwMDg1Nl5BMl5BanBnXkFtZTgwMjQ2Mjk4NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "directors": [11],
+        "writers": [11, 12],
+        "cast": [13, 14, 15]
+    },
+    {
+        "id": 4,
+        "title": "Ένας Άλλος Κόσμος",
+        "year": 2015,
+        "rating": 7.6,
+        "description": "In modern-day Greece, while socioeconomic turmoil ravages Southern Europe, three distinct stories unfold, each representing a different generation of Greeks in love with a foreigner, each story coming together in the end to form a whole.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjc2MDgwNzkxOF5BMl5BanBnXkFtZTgwODIwOTYyNzE@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "directors": [16],
+        "writers": [16],
+        "cast": [17, 16, 18]
+    },
+    {
+        "id": 5,
+        "title": "Η δεσποινίς Βία",
+        "year": 2013,
+        "rating": 7.1,
+        "description": "An unnerving story about a horrid family drama and an elaborate facade where appearances can be deceiving and nothing is as it seems.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjg1YWM4N2UtZDZiOS00ZTA2LTlhYjgtY2ExNjQxYzhkMDhmXkEyXkFqcGdeQXVyNjUyNDEzOTk@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "directors": [19],
+        "writers": [19, 20],
+        "cast": [21, 22, 23]
+    },
+    {
+        "id": 6,
+        "title": "Alpeis",
+        "year": 2011,
+        "rating": 6.4,
+        "description": "A group of people start a business where they impersonate the recently deceased in order to help their clients through the grieving process.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI3NTk4ODI0M15BMl5BanBnXkFtZTcwNzE1Mzg4Nw@@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "directors": [6],
+        "writers": [7, 6],
+        "cast": [24, 25, 26]
+    },
+    {
+        "id": 7,
+        "title": "Chevalier",
+        "year": 2015,
+        "rating": 6.4,
+        "description": "In the middle of the Aegean Sea, six men on a fishing trip on a luxury yacht decide to play a game. During this game, things will be compared. Things will be measured.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyODQ3NjM1Ml5BMl5BanBnXkFtZTgwNjYwNDc2ODE@._V1_UY268_CR0,0,182,268_AL_.jpg",
+        "directors": [27],
+        "writers": [7, 27],
+        "cast": [28, 29, 30]
+    },
+    {
+        "id": 8,
+        "title": "Attenberg",
+        "year": 2010,
+        "rating": 6.2,
+        "description": "Stuck in her boring factory town, twenty-three-year-old Marina is at the mercy of both her father's impending death and her distaste for other humans.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI4MTM2NzMyNV5BMl5BanBnXkFtZTcwMTE0MTc0Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "directors": [27],
+        "writers": [27],
+        "cast": [31, 6, 28]
+    },
+    {
+        "id": 9,
+        "title": "Πολίτικη κουζίνα",
+        "year": 2003,
+        "rating": 7.6,
+        "description": "\"A Touch of Spice\" is a story about a young Greek boy (Fanis) growing up in Istanbul, whose grandfather, a culinary philosopher and mentor,teaches him that both food and life require a ...",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MjQ5OTE0MF5BMl5BanBnXkFtZTcwMjE1NTcyMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg",
+        "directors": [32],
+        "writers": [32],
+        "cast": [33, 34, 35]
+    },
+    {
+        "id": 10,
+        "title": "Little England",
+        "year": 2013,
+        "rating": 7.9,
+        "description": "One home, one secret, one man, two sisters.",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMxOTU2MjQ0M15BMl5BanBnXkFtZTgwNjMxMzIyNTE@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "directors": [36],
+        "writers": [37],
+        "cast": [38, 39, 40]
+    }
+]
