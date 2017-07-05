@@ -11,11 +11,6 @@ $(function () {
             0, startsWith.length
           );
 
-          console.log(
-            startsWith, movie.title,
-            movie.title.substring(0, startsWith.length)
-          );
-
           if (startsWith != titleStartsWith) {
             continue;
           }
