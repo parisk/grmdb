@@ -6,5 +6,5 @@ GRMDB is he GReek Movie DataBase and serves as an example app for using jQuery.
 
 - [x] Search in available movies
 - [ ] Search in available directors
-- [ ] Display a view for a movie
+- [x] Display a view for a movie
 - [ ] Display a view for a director
