@@ -3,21 +3,30 @@
 	<head>
 		<meta charset="utf8" />
 		<title>GReek Movie DataBase</title>
+
+		<!-- Include Bootstrap's stylesheet -->
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+		<!-- Include our own stylesheet -->
 		<link rel="stylesheet" type="text/css" href="main.css" />
+
+		<!-- Include jQuery, which is needed by Bootstrap for the modal window -->
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+		<!-- Include Bootstrap's JavaScript, which provides the modal window implementation -->
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<nav class="navbar navbar-inverse">
 				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
+
+					<!-- This is the GRMDB link in the top navigation bar -->
 					<div class="navbar-header">
 						<a class="navbar-brand" href="#">GRMDB</a>
 					</div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
+					<!-- Link to this website's code repository -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="https://github.com/parisk/grmdb">View on GitHub</a></li>
@@ -26,34 +35,69 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>
+
+		<!-- This is just a container div that keeps all of the content -->
 		<div class="container-fluid">
+
+			<!-- This is just a second container div which is suggested by Bootstrap -->
 			<div class="container">
+
+				<!-- This is the HTML element that contains the list of films -->
 				<div id="films" class="panel panel-default">
+
+					<!-- Heading for the list of films -->
 					<div class="panel-heading">🎬 Ταινίες</div>
+
+					<!-- Search form for the list of films -->
 					<div class="panel-body">
 						<input id="movie-search" type="search" placeholder="Αναζήτηση ταινίας"/>
 						<button id="search-button" >Αναζήτηση</button>
 					</div>
+
+					<!-- This is the actual list of films (initially empty) -->
 					<ul id="movie-list" class="list-group"></ul>
 				</div>
 			</div>
 		</div>
 
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-			Launch demo modal
-		</button>
 
-		<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+		<!--
+			This is the modal window that displays each film's details, when asked for.
+			http://getbootstrap.com/javascript/#live-demo
+		-->
+		<div id="film-details" class="modal fade" tabindex="-1" role="dialog">
+
+			<!-- This is a container element needed by Bootstrap -->
 			<div class="modal-dialog" role="document">
+
+				<!-- This is another container element needed by Bootstrap! -->
 				<div class="modal-content">
+
+					<!-- This is the modal window's header element -->
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+						<!-- This is the modal window's close button (top-right) -->
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+							<!-- This is the "⨉" symbol for the close button -->
+							<span aria-hidden="true">&times;</span>
+						</button>
+
+						<!-- This is the modal window's title -->
 						<h4 class="modal-title">Επισκόπιση Ταινίας</h4>
 					</div>
 					<div class="modal-body">
+
+						<!-- This is each movie's image element (initially empty) -->
 						<img id="movie-img" />
+
+						<!-- This is each movie's title element (initially empty) -->
 						<div id="movie-title"></div>
+
+						<!-- This is each movie's rating element (initially empty) -->
 						<div id="movie-rating"></div>
+
+						<!-- This is each movie's description element (initially empty) -->
 						<div id="movie-description"></div>
 					</div>
 				</div><!-- /.modal-content -->
